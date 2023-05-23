@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-rxikil#nduu1nckfl$oj$&lc2dfkua382fnrul1lmkth74uz5b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-c058.up.railway.app/']
+ALLOWED_HOSTS = ['web-production-c058.up.railway.app', '127.0.0.1']
 
 
 # Application definition
@@ -81,9 +81,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'FaEfpnJmR78D5Qkfvyhh',
-        'HOST': 'containers-us-west-157.railway.app',
-        'PORT': '5752',
+        'PASSWORD': 'oqzT8TnSmo9OG6t0ylOD',
+        'HOST': 'containers-us-west-40.railway.app',
+        'PORT': '7251',
     }
 }
 
